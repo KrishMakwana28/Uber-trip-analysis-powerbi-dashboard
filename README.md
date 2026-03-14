@@ -164,15 +164,15 @@ This project demonstrates several **advanced Power BI techniques**:
 
 ## Overview Dashboard
 
-<img src="screenshots/overview_dashboard.png" width="900">
+<img src="overview_dashboard.png" width="900">
 
 ## Time Analysis Dashboard
 
-<img src="screenshots/time_analysis_dashboard.png" width="900">
+<img src="time_analysis_dashboard.png" width="900">
 
 ## Detailed Data View
 
-<img src="screenshots/details_dashboard.png" width="900">
+<img src="details_dashboard.png" width="900">
 
 ---
 
@@ -222,7 +222,7 @@ Through this project I learned how to:
 
 **Krish Makwana**
 
-# Github:- https://github.com/KrishMakwana28
+**Github:- https://github.com/KrishMakwana28**
 
 ---
 
