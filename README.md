@@ -158,27 +158,7 @@ This project demonstrates several **advanced Power BI techniques**:
 
 ---
 
-# 📂 Project Structure
 
-```
-Uber-Trip-Analysis
-│
-├── dataset
-│   ├── uber_trip_data.csv
-│   └──images/logos
-│
-├── dashboard
-│   └── Uber_Trip_Analysis.pbix
-│
-├── screenshots
-│   ├── overview_dashboard.png
-│   ├── time_analysis_dashboard.png
-│   └── details_dashboard.png
-│
-└── README.md
-```
-
----
 
 # 📷 Dashboard Preview
 
