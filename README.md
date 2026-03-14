@@ -164,7 +164,8 @@ This project demonstrates several **advanced Power BI techniques**:
 Uber-Trip-Analysis
 │
 ├── dataset
-│   └── uber_trip_data.csv
+│   ├── uber_trip_data.csv
+│   └──images/logos
 │
 ├── dashboard
 │   └── Uber_Trip_Analysis.pbix
@@ -241,7 +242,7 @@ Through this project I learned how to:
 
 **Krish Makwana**
 
-Aspiring **Data Analyst | Power BI Developer**
+# Github:- https://github.com/KrishMakwana28
 
 ---
 
