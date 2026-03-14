@@ -1,29 +1,49 @@
-# 🚖 Uber Trip Analysis Dashboard (Power BI)
+# 🚖 Uber Trip Analysis Dashboard
 
-This project presents an **interactive Power BI dashboard** that analyses Uber trip data to uncover insights about **ride demand, revenue trends, trip efficiency, vehicle usage, and location patterns**.
+![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow?style=for-the-badge\&logo=powerbi)
+![Data Analysis](https://img.shields.io/badge/Field-Data%20Analytics-blue?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/Project-Dashboard-green?style=for-the-badge)
+![DAX](https://img.shields.io/badge/Language-DAX-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
-The dashboard enables stakeholders to make **data-driven decisions** using dynamic measures, interactive filters, and detailed visual analytics.
+An **interactive Business Intelligence dashboard** built using **Power BI** to analyse Uber trip data and uncover insights about **booking trends, revenue generation, trip efficiency, time patterns, vehicle usage, and location demand**.
 
----
-
-# 📊 Project Objective
-
-The goal of this project is to analyse Uber trip data and provide insights into:
-
-- Ride booking trends
-- Revenue generation
-- Trip efficiency
-- Vehicle demand
-- Location-based ride patterns
-- Time-based ride demand
-
-This helps improve **operational planning, pricing strategies, and driver allocation**.
+This project demonstrates **data visualization, business analytics, and Power BI dashboard development skills**.
 
 ---
 
-# 🧩 Dashboards Overview
+# 📌 Project Overview
 
-The Power BI solution contains **3 interactive dashboards**.
+Ride-sharing platforms like Uber generate massive amounts of trip data every day.
+This dashboard analyses Uber trip data to help stakeholders understand:
+
+* Booking trends
+* Revenue performance
+* Trip efficiency
+* Time-based demand
+* Location demand
+* Vehicle preferences
+
+The dashboard provides **actionable insights for better decision making, driver allocation, and pricing strategies**.
+
+---
+
+# 🎯 Business Objectives
+
+The main objective of this project is to build an **interactive analytics dashboard** that helps answer key business questions:
+
+✔ How many trips are booked over time?
+✔ What is the total revenue generated?
+✔ How far are customers travelling?
+✔ What are the peak booking hours and days?
+✔ Which locations generate the most demand?
+✔ Which vehicle types are most preferred?
+
+---
+
+# 📊 Dashboard Structure
+
+The Power BI report contains **three interactive dashboards**.
 
 ---
 
@@ -31,128 +51,200 @@ The Power BI solution contains **3 interactive dashboards**.
 
 This dashboard provides a **high-level summary of Uber trip performance**.
 
-### Key KPIs
+## Key KPIs
 
-- **Total Bookings** – Total number of trips
-- **Total Booking Value** – Total revenue generated
-- **Average Booking Value** – Average revenue per trip
-- **Total Trip Distance** – Total miles covered
-- **Average Trip Distance** – Average trip distance
-- **Average Trip Time** – Average trip duration
+* 🚗 **Total Bookings**
+* 💰 **Total Booking Value**
+* 📊 **Average Booking Value**
+* 📍 **Total Trip Distance**
+* 📏 **Average Trip Distance**
+* ⏱ **Average Trip Time**
 
-### Visualizations
+## Visual Insights
 
-- Total Trip Distance by **Payment Type**
-- Total Trip Distance by **Trip Type (Day / Night)**
-- **Total Bookings by Day**
-- **Vehicle Type Analysis**
-- **Location Analysis**
+* Trip Distance by **Payment Type**
+* Trip Distance by **Trip Type (Day/Night)**
+* **Total Bookings by Day**
+* **Vehicle Type Analysis**
+* **Location Analysis**
 
-### Location Insights
+## Location Insights
 
-- Most Frequent Pickup Point
-- Most Frequent Drop-off Point
-- Farthest Trip
-- Top 5 Locations by Total Bookings
-- Most Preferred Vehicle for Pickup Location
-
-### Additional Features
-
-- Dynamic measure selector
-- Dynamic titles
-- Interactive slicers
-- Tooltips with additional insights
-- Conditional formatting for KPIs
+* Most Frequent Pickup Point
+* Most Frequent Drop-off Point
+* Farthest Trip
+* Top 5 Locations by Total Bookings
+* Most Preferred Vehicle for Pickup Location
 
 ---
 
 # 2️⃣ Time Analysis Dashboard
 
-This dashboard focuses on **trip demand patterns based on time**.
+This dashboard analyses **ride demand across different time intervals**.
 
-### Global Dynamic Measure
+## Dynamic Measure Selector
 
 Users can switch between:
 
-- Total Bookings
-- Total Booking Value
-- Total Trip Distance
+* Total Bookings
+* Total Booking Value
+* Total Trip Distance
 
-All visuals update dynamically based on the selected metric.
+All charts automatically update based on the selected measure.
 
-### Visualizations
+## Visualizations
 
-**1. Bookings by Pickup Time**
+### 📈 Bookings by Pickup Time
 
-- Area chart
-- Groups trips into **10-minute intervals**
+Area chart showing ride demand grouped into **10-minute intervals**.
 
-**2. Bookings by Day Name**
+### 📉 Bookings by Day
 
-- Line chart
-- Shows demand across **Monday – Sunday**
+Line chart showing booking trends from **Monday to Sunday**.
 
-**3. Booking Heatmap**
+### 🔥 Hour vs Day Heatmap
 
-Matrix grid showing:
+Matrix heatmap showing:
 
-- Rows → Hours (0–23)
-- Columns → Days (Mon–Sun)
-- Values → Selected dynamic measure
+Rows → Hours of the day (0-23)
+Columns → Days of the week
+Values → Selected dynamic measure
 
-This highlights **peak booking hours and days**.
+This visualization highlights **peak demand hours and days**.
 
 ---
 
-# 3️⃣ Details Dashboard
+# 3️⃣ Detailed Data Dashboard
 
-This tab provides **granular trip-level data** for deeper analysis.
+This tab provides **granular trip-level data for deep analysis**.
 
-### Features
+## Features
 
-- Detailed **grid table**
-- Displays trip-level data such as:
+* Interactive **grid table**
+* Drill-through capability
+* Full dataset exploration
 
-  - Trip ID
-  - Pickup Date
-  - Pickup Hour
-  - Vehicle Type
-  - Payment Type
-  - Passenger Count
-  - Trip Distance
-  - Booking Value
-  - Pickup Location
+## Data Fields
 
-### Drill-Through Capability
+* Trip ID
+* Pickup Date
+* Pickup Hour
+* Vehicle Type
+* Payment Type
+* Passenger Count
+* Trip Distance
+* Booking Value
+* Pickup Location
 
-Users can:
-
-- Right-click any visual
-- Drill through to see **underlying trip records**
-
-### Bookmark Features
-
-- View Full Dataset
-- Toggle filtered vs complete data
+Users can **right-click any chart and drill-through to view detailed records**.
 
 ---
 
-# 🛠 Power BI Features Used
+# 🧠 Advanced Power BI Features Used
 
-This project demonstrates multiple advanced Power BI techniques:
+This project demonstrates several **advanced Power BI techniques**:
 
-- Data Modeling
-- Relationships (Active & Inactive)
-- DAX Measures
-- Dynamic Measure Selection
-- Disconnected Tables
-- Bookmarks
-- Drill-through
-- Conditional Formatting
-- Interactive Slicers
-- Dynamic Titles
-- Matrix Heatmaps
+✔ Data Modeling
+✔ Active & Inactive Relationships
+✔ DAX Measures
+✔ Dynamic Measure Selector
+✔ Disconnected Tables
+✔ Conditional Formatting
+✔ Matrix Heatmaps
+✔ Interactive Filters & Slicers
+✔ Bookmarks
+✔ Drill-Through Navigation
+✔ Dynamic Titles
 
 ---
 
 # 📂 Project Structure
+
+```
+Uber-Trip-Analysis
+│
+├── dataset
+│   └── uber_trip_data.csv
+│
+├── dashboard
+│   └── Uber_Trip_Analysis.pbix
+│
+├── screenshots
+│   ├── overview_dashboard.png
+│   ├── time_analysis_dashboard.png
+│   └── details_dashboard.png
+│
+└── README.md
+```
+
+---
+
+# 📷 Dashboard Preview
+
+## Overview Dashboard
+
+<img src="screenshots/overview_dashboard.png" width="900">
+
+## Time Analysis Dashboard
+
+<img src="screenshots/time_analysis_dashboard.png" width="900">
+
+## Detailed Data View
+
+<img src="screenshots/details_dashboard.png" width="900">
+
+---
+
+# 📈 Key Insights from the Analysis
+
+Some important insights that can be derived from this dashboard:
+
+* Peak booking hours occur during afternoon and evening.
+* Weekends show higher booking volumes.
+* Certain locations generate significantly higher trip demand.
+* Vehicle preference varies based on pickup location.
+* Long-distance trips represent potential revenue opportunities.
+
+These insights can help improve:
+
+✔ Driver allocation
+✔ Pricing optimization
+✔ Customer experience
+✔ Operational efficiency
+
+---
+
+# 🛠 Tools & Technologies
+
+| Tool          | Purpose                 |
+| ------------- | ----------------------- |
+| Power BI      | Data Visualization      |
+| DAX           | Calculated Measures     |
+| Data Modeling | Relationship Management |
+| Excel / CSV   | Dataset                 |
+
+---
+
+# 🎓 Learning Outcomes
+
+Through this project I learned how to:
+
+* Build **professional Power BI dashboards**
+* Implement **dynamic measures**
+* Analyse **time-based and location-based data**
+* Create **interactive business intelligence reports**
+* Apply **data storytelling techniques**
+
+---
+
+# 👨‍💻 Author
+
+**Krish Makwana**
+
+Aspiring **Data Analyst | Power BI Developer**
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
